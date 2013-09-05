@@ -1,0 +1,18 @@
+
+use "openssl version -a" to see the openssl version 
+
+next 
+
+use "openssl genrsa -out rsa_private_key.pem 1024 " to genarate the primary key 
+
+next 
+
+use "openssl rsa -in rsa_private_key.pem -out rsa_public_key.pem -pubout" to generate the public key
+
+next
+
+use "openssl pkcs8 -topk8 -in rsa_private_key.pem -out pkcs8_rsa_private_key.pem -nocrypt" to recode public key 
+
+next 
+
+use the pkcs8_rsa_private_key.pem as the private key .  
