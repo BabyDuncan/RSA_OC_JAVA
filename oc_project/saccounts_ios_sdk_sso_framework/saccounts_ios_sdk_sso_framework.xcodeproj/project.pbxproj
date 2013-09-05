@@ -9,11 +9,9 @@
 /* Begin PBXBuildFile section */
 		2859668B42896E53E2953CA5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 285968C0B6345413BCE7606F /* Foundation.framework */; };
 		285968AB1D51ED012C4BF2DA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 285964D30AA06FE27E2C78D3 /* CoreGraphics.framework */; };
-		285969F435721A72FA0FE78C /* Base64.h in Headers */ = {isa = PBXBuildFile; fileRef = 28596C9C96CEB853EEDF9C74 /* Base64.h */; };
 		285969F55790BF3D3713717D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 285965949C54756A73510392 /* QuartzCore.framework */; };
 		28596A27805938994550CDAE /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 285965949C54756A73510392 /* QuartzCore.framework */; };
 		28596A4E674827FD09B79B74 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2859609436192DCF6574A4B7 /* Security.framework */; };
-		28596ABBAD5F152599CF9B53 /* Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 28596861B61923BAFDABA360 /* Base64.m */; };
 		28596E2EE06CE31F7C6F3470 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 285964D30AA06FE27E2C78D3 /* CoreGraphics.framework */; };
 		E30785F417D6D25400C2D393 /* Hello.m in Sources */ = {isa = PBXBuildFile; fileRef = E3BDA9BF17D58B01002468EE /* Hello.m */; };
 		E307860917D6D27400C2D393 /* AFHTTPClient.h in Headers */ = {isa = PBXBuildFile; fileRef = E30785F617D6D27400C2D393 /* AFHTTPClient.h */; };
@@ -64,9 +62,7 @@
 		2859609436192DCF6574A4B7 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		285964D30AA06FE27E2C78D3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		285965949C54756A73510392 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		28596861B61923BAFDABA360 /* Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Base64.m; sourceTree = "<group>"; };
 		285968C0B6345413BCE7606F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = ../../../../../Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = "<group>"; };
-		28596C9C96CEB853EEDF9C74 /* Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Base64.h; sourceTree = "<group>"; };
 		28596D51F8848A11FA4A03B1 /* GHUnitIOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GHUnitIOS.framework; path = "/Users/babyduncan/Downloads/gh-unit-master/Project-iOS/build/Framework/GHUnitIOS.framework"; sourceTree = "<absolute>"; };
 		E30785F617D6D27400C2D393 /* AFHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPClient.h; sourceTree = "<group>"; };
 		E30785F717D6D27400C2D393 /* AFHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPClient.m; sourceTree = "<group>"; };
@@ -212,8 +208,6 @@
 				E3BDA99717D5886F002468EE /* Supporting Files */,
 				E3BDA9BE17D58B01002468EE /* Hello.h */,
 				E3BDA9BF17D58B01002468EE /* Hello.m */,
-				28596861B61923BAFDABA360 /* Base64.m */,
-				28596C9C96CEB853EEDF9C74 /* Base64.h */,
 			);
 			path = saccounts_ios_sdk_sso_framework;
 			sourceTree = "<group>";
@@ -260,7 +254,6 @@
 				E307861C17D6D27400C2D393 /* AFURLConnectionOperation.h in Headers */,
 				E307861F17D6D27400C2D393 /* AFXMLRequestOperation.h in Headers */,
 				E307862217D6D27400C2D393 /* UIImageView+AFNetworking.h in Headers */,
-				285969F435721A72FA0FE78C /* Base64.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,7 +425,6 @@
 				E307861D17D6D27400C2D393 /* AFURLConnectionOperation.m in Sources */,
 				E307862017D6D27400C2D393 /* AFXMLRequestOperation.m in Sources */,
 				E307862317D6D27400C2D393 /* UIImageView+AFNetworking.m in Sources */,
-				28596ABBAD5F152599CF9B53 /* Base64.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
