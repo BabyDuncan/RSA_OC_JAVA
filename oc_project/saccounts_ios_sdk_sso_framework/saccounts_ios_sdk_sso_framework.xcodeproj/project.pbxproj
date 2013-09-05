@@ -12,6 +12,7 @@
 		285969F55790BF3D3713717D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 285965949C54756A73510392 /* QuartzCore.framework */; };
 		28596A27805938994550CDAE /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 285965949C54756A73510392 /* QuartzCore.framework */; };
 		28596A4E674827FD09B79B74 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2859609436192DCF6574A4B7 /* Security.framework */; };
+		28596A71E51567D2307DA89E /* Base64.h in Headers */ = {isa = PBXBuildFile; fileRef = 2859641A6F5421696BE90F77 /* Base64.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		28596E2EE06CE31F7C6F3470 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 285964D30AA06FE27E2C78D3 /* CoreGraphics.framework */; };
 		E30785F417D6D25400C2D393 /* Hello.m in Sources */ = {isa = PBXBuildFile; fileRef = E3BDA9BF17D58B01002468EE /* Hello.m */; };
 		E307860917D6D27400C2D393 /* AFHTTPClient.h in Headers */ = {isa = PBXBuildFile; fileRef = E30785F617D6D27400C2D393 /* AFHTTPClient.h */; };
@@ -53,6 +54,14 @@
 		E31DC9F617D5E76C000FA939 /* FirstTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E31DC9F517D5E76C000FA939 /* FirstTest.m */; };
 		E31DC9F817D5E8D8000FA939 /* File in Resources */ = {isa = PBXBuildFile; fileRef = E31DC9F717D5E8D8000FA939 /* File */; };
 		E32A629317D82FCC00991A5F /* GHUnitIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28596D51F8848A11FA4A03B1 /* GHUnitIOS.framework */; };
+		E32A629D17D8609000991A5F /* RSA.h in Headers */ = {isa = PBXBuildFile; fileRef = E32A629B17D8609000991A5F /* RSA.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E32A62A117D8685100991A5F /* RSATest.m in Sources */ = {isa = PBXBuildFile; fileRef = E32A62A017D8685100991A5F /* RSATest.m */; };
+		E32A62A317D86D4500991A5F /* RSA.m in Sources */ = {isa = PBXBuildFile; fileRef = E32A629C17D8609000991A5F /* RSA.m */; };
+		E32A62A417D86D4900991A5F /* Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 28596E3ED6E6289CA3A48B99 /* Base64.m */; };
+		E32A62A517D86EC200991A5F /* RSA.m in Sources */ = {isa = PBXBuildFile; fileRef = E32A629C17D8609000991A5F /* RSA.m */; };
+		E32A62A617D86EC600991A5F /* Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 28596E3ED6E6289CA3A48B99 /* Base64.m */; };
+		E32A62AD17D887AC00991A5F /* public_key.der in Resources */ = {isa = PBXBuildFile; fileRef = E32A62AC17D887AC00991A5F /* public_key.der */; };
+		E32A62AE17D887AC00991A5F /* public_key.der in Resources */ = {isa = PBXBuildFile; fileRef = E32A62AC17D887AC00991A5F /* public_key.der */; };
 		E3BDA99B17D5886F002468EE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E3BDA99917D5886F002468EE /* InfoPlist.strings */; };
 		E3BDA9C017D58B01002468EE /* Hello.h in Headers */ = {isa = PBXBuildFile; fileRef = E3BDA9BE17D58B01002468EE /* Hello.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E3BDA9C117D58B01002468EE /* Hello.m in Sources */ = {isa = PBXBuildFile; fileRef = E3BDA9BF17D58B01002468EE /* Hello.m */; };
@@ -60,10 +69,12 @@
 
 /* Begin PBXFileReference section */
 		2859609436192DCF6574A4B7 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		2859641A6F5421696BE90F77 /* Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Base64.h; sourceTree = "<group>"; };
 		285964D30AA06FE27E2C78D3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		285965949C54756A73510392 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		285968C0B6345413BCE7606F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = ../../../../../Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = "<group>"; };
 		28596D51F8848A11FA4A03B1 /* GHUnitIOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GHUnitIOS.framework; path = "/Users/babyduncan/Downloads/gh-unit-master/Project-iOS/build/Framework/GHUnitIOS.framework"; sourceTree = "<absolute>"; };
+		28596E3ED6E6289CA3A48B99 /* Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Base64.m; sourceTree = "<group>"; };
 		E30785F617D6D27400C2D393 /* AFHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPClient.h; sourceTree = "<group>"; };
 		E30785F717D6D27400C2D393 /* AFHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPClient.m; sourceTree = "<group>"; };
 		E30785F817D6D27400C2D393 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
@@ -94,6 +105,10 @@
 		E31DC9EF17D5DD3B000FA939 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		E31DC9F517D5E76C000FA939 /* FirstTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstTest.m; sourceTree = "<group>"; };
 		E31DC9F717D5E8D8000FA939 /* File */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = File; sourceTree = "<group>"; };
+		E32A629B17D8609000991A5F /* RSA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSA.h; sourceTree = "<group>"; };
+		E32A629C17D8609000991A5F /* RSA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSA.m; sourceTree = "<group>"; };
+		E32A62A017D8685100991A5F /* RSATest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSATest.m; sourceTree = "<group>"; };
+		E32A62AC17D887AC00991A5F /* public_key.der */ = {isa = PBXFileReference; lastKnownFileType = file; path = public_key.der; sourceTree = "<group>"; };
 		E3BDA99417D5886F002468EE /* saccounts_ios_sdk_sso_framework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = saccounts_ios_sdk_sso_framework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3BDA99817D5886F002468EE /* saccounts_ios_sdk_sso_framework-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "saccounts_ios_sdk_sso_framework-Info.plist"; sourceTree = "<group>"; };
 		E3BDA99A17D5886F002468EE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -163,6 +178,7 @@
 				E31DC9E017D5DD3B000FA939 /* Supporting Files */,
 				E31DC9F517D5E76C000FA939 /* FirstTest.m */,
 				E307862917D724BF00C2D393 /* AsFirstTest.m */,
+				E32A62A017D8685100991A5F /* RSATest.m */,
 			);
 			path = saccounts_ios_sdk_sso_unit_test;
 			sourceTree = "<group>";
@@ -185,6 +201,7 @@
 		E3BDA98717D5886F002468EE = {
 			isa = PBXGroup;
 			children = (
+				E32A62AC17D887AC00991A5F /* public_key.der */,
 				E30785F517D6D27400C2D393 /* AFNetworking */,
 				E3BDA99617D5886F002468EE /* saccounts_ios_sdk_sso_framework */,
 				E31DC9DF17D5DD3B000FA939 /* saccounts_ios_sdk_sso_unit_test */,
@@ -208,6 +225,10 @@
 				E3BDA99717D5886F002468EE /* Supporting Files */,
 				E3BDA9BE17D58B01002468EE /* Hello.h */,
 				E3BDA9BF17D58B01002468EE /* Hello.m */,
+				E32A629B17D8609000991A5F /* RSA.h */,
+				E32A629C17D8609000991A5F /* RSA.m */,
+				28596E3ED6E6289CA3A48B99 /* Base64.m */,
+				2859641A6F5421696BE90F77 /* Base64.h */,
 			);
 			path = saccounts_ios_sdk_sso_framework;
 			sourceTree = "<group>";
@@ -244,6 +265,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E3BDA9C017D58B01002468EE /* Hello.h in Headers */,
+				E32A629D17D8609000991A5F /* RSA.h in Headers */,
+				28596A71E51567D2307DA89E /* Base64.h in Headers */,
 				E307860917D6D27400C2D393 /* AFHTTPClient.h in Headers */,
 				E307860C17D6D27400C2D393 /* AFHTTPRequestOperation.h in Headers */,
 				E307860F17D6D27400C2D393 /* AFImageRequestOperation.h in Headers */,
@@ -335,6 +358,7 @@
 				E31DC9EE17D5DD3B000FA939 /* Default@2x.png in Resources */,
 				E31DC9F017D5DD3B000FA939 /* Default-568h@2x.png in Resources */,
 				E31DC9F817D5E8D8000FA939 /* File in Resources */,
+				E32A62AE17D887AC00991A5F /* public_key.der in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,6 +367,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E3BDA99B17D5886F002468EE /* InfoPlist.strings in Resources */,
+				E32A62AD17D887AC00991A5F /* public_key.der in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -395,6 +420,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E32A62A617D86EC600991A5F /* Base64.m in Sources */,
+				E32A62A517D86EC200991A5F /* RSA.m in Sources */,
 				E30785F417D6D25400C2D393 /* Hello.m in Sources */,
 				E31DC9E617D5DD3B000FA939 /* main.m in Sources */,
 				E31DC9F617D5E76C000FA939 /* FirstTest.m in Sources */,
@@ -408,6 +435,7 @@
 				E307862117D6D27400C2D393 /* AFXMLRequestOperation.m in Sources */,
 				E307862417D6D27400C2D393 /* UIImageView+AFNetworking.m in Sources */,
 				E307862A17D724BF00C2D393 /* AsFirstTest.m in Sources */,
+				E32A62A117D8685100991A5F /* RSATest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,6 +443,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E32A62A417D86D4900991A5F /* Base64.m in Sources */,
+				E32A62A317D86D4500991A5F /* RSA.m in Sources */,
 				E3BDA9C117D58B01002468EE /* Hello.m in Sources */,
 				E307860A17D6D27400C2D393 /* AFHTTPClient.m in Sources */,
 				E307860D17D6D27400C2D393 /* AFHTTPRequestOperation.m in Sources */,
