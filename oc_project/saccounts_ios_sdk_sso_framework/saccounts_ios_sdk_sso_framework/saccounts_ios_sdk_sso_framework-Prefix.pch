@@ -1,0 +1,13 @@
+//
+// Prefix header for all source files of the 'saccounts_ios_sdk_sso_framework' target in the 'saccounts_ios_sdk_sso_framework' project
+//
+
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import <CoreLocation/CoreLocation.h>
+#import "AFNetworking.h"
+#endif
+
+#endif
