@@ -60,8 +60,8 @@
 		E32A62A417D86D4900991A5F /* Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 28596E3ED6E6289CA3A48B99 /* Base64.m */; };
 		E32A62A517D86EC200991A5F /* RSA.m in Sources */ = {isa = PBXBuildFile; fileRef = E32A629C17D8609000991A5F /* RSA.m */; };
 		E32A62A617D86EC600991A5F /* Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 28596E3ED6E6289CA3A48B99 /* Base64.m */; };
-		E32A62AD17D887AC00991A5F /* public_key.der in Resources */ = {isa = PBXBuildFile; fileRef = E32A62AC17D887AC00991A5F /* public_key.der */; };
-		E32A62AE17D887AC00991A5F /* public_key.der in Resources */ = {isa = PBXBuildFile; fileRef = E32A62AC17D887AC00991A5F /* public_key.der */; };
+		E32A62B017D8911E00991A5F /* public_key.der in Resources */ = {isa = PBXBuildFile; fileRef = E32A62AF17D8911E00991A5F /* public_key.der */; };
+		E32A62B217D8913000991A5F /* public_key.der in Resources */ = {isa = PBXBuildFile; fileRef = E32A62AF17D8911E00991A5F /* public_key.der */; };
 		E3BDA99B17D5886F002468EE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E3BDA99917D5886F002468EE /* InfoPlist.strings */; };
 		E3BDA9C017D58B01002468EE /* Hello.h in Headers */ = {isa = PBXBuildFile; fileRef = E3BDA9BE17D58B01002468EE /* Hello.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E3BDA9C117D58B01002468EE /* Hello.m in Sources */ = {isa = PBXBuildFile; fileRef = E3BDA9BF17D58B01002468EE /* Hello.m */; };
@@ -108,7 +108,7 @@
 		E32A629B17D8609000991A5F /* RSA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSA.h; sourceTree = "<group>"; };
 		E32A629C17D8609000991A5F /* RSA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSA.m; sourceTree = "<group>"; };
 		E32A62A017D8685100991A5F /* RSATest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSATest.m; sourceTree = "<group>"; };
-		E32A62AC17D887AC00991A5F /* public_key.der */ = {isa = PBXFileReference; lastKnownFileType = file; path = public_key.der; sourceTree = "<group>"; };
+		E32A62AF17D8911E00991A5F /* public_key.der */ = {isa = PBXFileReference; lastKnownFileType = file; path = public_key.der; sourceTree = "<group>"; };
 		E3BDA99417D5886F002468EE /* saccounts_ios_sdk_sso_framework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = saccounts_ios_sdk_sso_framework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3BDA99817D5886F002468EE /* saccounts_ios_sdk_sso_framework-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "saccounts_ios_sdk_sso_framework-Info.plist"; sourceTree = "<group>"; };
 		E3BDA99A17D5886F002468EE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -201,7 +201,7 @@
 		E3BDA98717D5886F002468EE = {
 			isa = PBXGroup;
 			children = (
-				E32A62AC17D887AC00991A5F /* public_key.der */,
+				E32A62AF17D8911E00991A5F /* public_key.der */,
 				E30785F517D6D27400C2D393 /* AFNetworking */,
 				E3BDA99617D5886F002468EE /* saccounts_ios_sdk_sso_framework */,
 				E31DC9DF17D5DD3B000FA939 /* saccounts_ios_sdk_sso_unit_test */,
@@ -353,12 +353,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E32A62B217D8913000991A5F /* public_key.der in Resources */,
 				E31DC9E417D5DD3B000FA939 /* InfoPlist.strings in Resources */,
 				E31DC9EC17D5DD3B000FA939 /* Default.png in Resources */,
 				E31DC9EE17D5DD3B000FA939 /* Default@2x.png in Resources */,
 				E31DC9F017D5DD3B000FA939 /* Default-568h@2x.png in Resources */,
 				E31DC9F817D5E8D8000FA939 /* File in Resources */,
-				E32A62AE17D887AC00991A5F /* public_key.der in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,7 +367,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E3BDA99B17D5886F002468EE /* InfoPlist.strings in Resources */,
-				E32A62AD17D887AC00991A5F /* public_key.der in Resources */,
+				E32A62B017D8911E00991A5F /* public_key.der in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

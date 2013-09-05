@@ -21,5 +21,15 @@
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
+      <dependency>
+          <groupId>commons-codec</groupId>
+          <artifactId>commons-codec</artifactId>
+          <version>1.4</version>
+      </dependency>
+      <dependency>
+          <groupId>bouncycastle</groupId>
+          <artifactId>bcprov-jdk16</artifactId>
+          <version>140</version>
+      </dependency>
   </dependencies>
 </project>
