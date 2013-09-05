@@ -6,8 +6,7 @@
 //  Copyright (c) 2013年 SOHU.COM. All rights reserved.
 //
 
-#import <GHUnitIOS/GHUnit.h> 
-#import "AFNetworking.h"
+#import <GHUnitIOS/GHUnit.h>
 
 @interface AsFirstTest : GHAsyncTestCase{}
 

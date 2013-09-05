@@ -7,7 +7,7 @@
 //
 
 
-#import <GHUnitIOS/GHUnit.h>
+#import <GHUnitIOS/GHTestCase.h>
 
 @interface FirstTest : GHTestCase { }
 @end
