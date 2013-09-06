@@ -53,7 +53,7 @@ public class RSAUtil {
     }
 
     public static void main(String[] args) throws Exception {
-        System.out.println(RSAUtil.decodeText("OCogqfZ+a34IlxoACc9s4A76+Hg3MfK6P2eVRiyju3J3mW9XcfKM7zaPFnwbZGNHu/VUoNMHsxRLo/E6vDq6n2wEwEvSuPEwYGiq15jeWUQPfo4KOM0zQokWBdP9nio6tKSJ4zyd/ZEM7ih0O+39wgvkAivt2i6ew2rCEmtG79w="));
+        System.out.println(RSAUtil.decodeText("RugSJSOasgys3q2/tU3jRoge1BPibHAblOeJqiWu0i95Lad7vmPfmiS6GqJirttjHTCYk9mU7tDkWSX9mvUsbg4yPW7XavWPkZNHlJpF4S0uJBWzB4nESTsCzxjHGcDGIVip6CkYeO2gJkhiidmHjucf+LnhjRF8zbO8z7FgVOg="));
     }
 
 }
