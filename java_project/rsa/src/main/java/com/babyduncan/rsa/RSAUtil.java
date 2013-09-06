@@ -13,6 +13,7 @@ import javax.crypto.IllegalBlockSizeException;
 import javax.crypto.NoSuchPaddingException;
 import java.io.ByteArrayOutputStream;
 import java.io.InputStream;
+import java.io.UnsupportedEncodingException;
 import java.security.*;
 import java.security.spec.EncodedKeySpec;
 import java.security.spec.PKCS8EncodedKeySpec;
@@ -42,17 +43,17 @@ public class RSAUtil {
         }
     }
 
-    public static String decodeText(String sec) throws NoSuchAlgorithmException, NoSuchPaddingException, IllegalBlockSizeException, BadPaddingException, InvalidKeyException, NoSuchProviderException {
+    public static String decodeText(String sec) throws NoSuchAlgorithmException, NoSuchPaddingException, IllegalBlockSizeException, BadPaddingException, InvalidKeyException, NoSuchProviderException, UnsupportedEncodingException {
         Cipher cipher = Cipher.getInstance("RSA/ECB/PKCS1PADDING");
         cipher.init(Cipher.DECRYPT_MODE, privateKey);
         byte[] base64 = Base64.decodeBase64(sec.getBytes());
         byte[] deBytes = cipher.doFinal(base64);
-        return new String(deBytes);
+        return new String(deBytes, "UTF-8");
 
     }
 
     public static void main(String[] args) throws Exception {
-        System.out.println(RSAUtil.decodeText("o0Rzny0LgGxkg6bnO4oTacgRgcBNb0sSTIuwx0J1mJeKhaL85B00SUbtP/HSIzA1aKa5NAqVDDB8xIJEgwNp4X2lb1W3wT/xHfjmfc7oVHH31t8RfpfvCa0nazDYLsYv/iQ6NZXozO9oXrQMjA20THu2wwSkteGX7HfSjW6aQTo="));
+        System.out.println(RSAUtil.decodeText("OCogqfZ+a34IlxoACc9s4A76+Hg3MfK6P2eVRiyju3J3mW9XcfKM7zaPFnwbZGNHu/VUoNMHsxRLo/E6vDq6n2wEwEvSuPEwYGiq15jeWUQPfo4KOM0zQokWBdP9nio6tKSJ4zyd/ZEM7ih0O+39wgvkAivt2i6ew2rCEmtG79w="));
     }
 
 }
