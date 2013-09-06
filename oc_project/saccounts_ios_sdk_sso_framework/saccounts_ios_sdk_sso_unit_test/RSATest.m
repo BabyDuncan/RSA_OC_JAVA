@@ -3,7 +3,7 @@
 //  saccounts_ios_sdk_sso_framework
 //
 //  Created by BabyDuncan on 13-9-5.
-//  Copyright (c) 2013å¹´ SOHU.COM. All rights reserved.
+//  Copyright (c) 2013å¹?SOHU.COM. All rights reserved.
 //
 
 #import <GHUnitIOS/GHTestCase.h>
@@ -16,7 +16,7 @@
 @implementation RSATest
 
 - (void)testRSA {
-    NSString *s = @"BabyDuncan";
+    NSString *s = @"BabyDuncanAAAbc";
     RSA *rsa = [RSA new];
     NSString *result = [rsa encryptRSA:s];
     NSLog(@"result is %@", result);

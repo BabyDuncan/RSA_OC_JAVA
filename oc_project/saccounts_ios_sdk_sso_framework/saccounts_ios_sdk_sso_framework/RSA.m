@@ -17,7 +17,7 @@
     uint8_t *cipherBuffer = malloc(cipherBufferSize);
     uint8_t *nonce = (uint8_t *) [plainTextString UTF8String];
     SecKeyEncrypt(publicKey,
-            kSecPaddingOAEP,
+            kSecPaddingPKCS1,
             nonce,
             strlen((char *) nonce),
             &cipherBuffer[0],
@@ -34,7 +34,7 @@
     uint8_t *cipherBuffer = (uint8_t *) [incomingData bytes];
     size_t cipherBufferSize = SecKeyGetBlockSize(privateKey);
     SecKeyDecrypt(privateKey,
-            kSecPaddingOAEP,
+            kSecPaddingPKCS1,
             cipherBuffer,
             cipherBufferSize,
             plainBuffer,

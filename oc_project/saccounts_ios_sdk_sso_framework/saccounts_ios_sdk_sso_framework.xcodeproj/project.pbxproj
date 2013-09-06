@@ -107,7 +107,7 @@
 		E31DC9F717D5E8D8000FA939 /* File */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = File; sourceTree = "<group>"; };
 		E32A629B17D8609000991A5F /* RSA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSA.h; sourceTree = "<group>"; };
 		E32A629C17D8609000991A5F /* RSA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSA.m; sourceTree = "<group>"; };
-		E32A62A017D8685100991A5F /* RSATest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSATest.m; sourceTree = "<group>"; };
+		E32A62A017D8685100991A5F /* RSATest.m */ = {isa = PBXFileReference; fileEncoding = 2147485233; lastKnownFileType = sourcecode.c.objc; path = RSATest.m; sourceTree = "<group>"; };
 		E32A62AF17D8911E00991A5F /* public_key.der */ = {isa = PBXFileReference; lastKnownFileType = file; path = public_key.der; sourceTree = "<group>"; };
 		E3BDA99417D5886F002468EE /* saccounts_ios_sdk_sso_framework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = saccounts_ios_sdk_sso_framework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3BDA99817D5886F002468EE /* saccounts_ios_sdk_sso_framework-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "saccounts_ios_sdk_sso_framework-Info.plist"; sourceTree = "<group>"; };
